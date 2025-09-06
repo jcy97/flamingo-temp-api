@@ -158,9 +158,10 @@ export const createProject = async (
       opacity: 1.0,
       blend_mode: "normal",
       order: 1,
+      type: "brush",
       layer_data: {
         brushStrokes: [],
-        textData: undefined,
+        textObjects: [],
         speechBubbleData: undefined,
         renderedImage: undefined,
         contentBounds: {
